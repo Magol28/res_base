@@ -44,7 +44,7 @@ public class MaxidResource {
                 
         Gson gson= new Gson();
         int dato= max.ID_maximo();
-        return "{"+dato+"}";
+        return gson.toJson(dato);
     }
 
     /**
