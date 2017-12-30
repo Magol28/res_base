@@ -43,7 +43,8 @@ public class MaxidResource {
         PersonaDAO max= new PersonaDAO();
                 
         Gson gson= new Gson();
-        return gson.toJson(max.ID_maximo());
+        int dato= max.ID_maximo();
+        return "{"+dato+"}";
     }
 
     /**
