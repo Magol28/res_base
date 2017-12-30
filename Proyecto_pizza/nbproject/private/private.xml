@@ -3,16 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Mago/Desktop/pruebas/pizza/Proyecto_pizza/src/java/Resource/ClientResource.java</file>
-            <file>file:/C:/Users/Mago/Desktop/pruebas/pizza/Proyecto_pizza/src/java/Resource/ApplicationConfig.java</file>
-            <file>file:/C:/Users/Mago/Desktop/pruebas/pizza/Proyecto_pizza/src/java/Resource/PedidoResource.java</file>
-            <file>file:/C:/Users/Mago/Desktop/pruebas/pizza/Proyecto_pizza/src/java/Resource/Pedido_pizzaResource.java</file>
-            <file>file:/C:/Users/Mago/Desktop/pruebas/pizza/Proyecto_pizza/src/java/Class/Persona.java</file>
-            <file>file:/C:/Users/Mago/Desktop/pruebas/pizza/Proyecto_pizza/src/java/ClassDAO/PersonaDAO.java</file>
-            <file>file:/C:/Users/Mago/Desktop/pruebas/pizza/Proyecto_pizza/src/java/Resource/DescuentoResource.java</file>
-            <file>file:/C:/Users/Mago/Desktop/pruebas/pizza/Proyecto_pizza/src/java/Resource/PizzaResource.java</file>
-            <file>file:/C:/Users/Mago/Desktop/pruebas/pizza/Proyecto_pizza/src/java/Control/ConexionDB.java</file>
-            <file>file:/C:/Users/Mago/Desktop/pruebas/pizza/Proyecto_pizza/src/java/Resource/Best_CustomerResource.java</file>
+            <file>file:/C:/Users/Mago/Desktop/pruebas/res_base/Proyecto_pizza/src/java/Class/Persona.java</file>
+            <file>file:/C:/Users/Mago/Desktop/pruebas/res_base/Proyecto_pizza/src/java/Resource/DescuentoResource.java</file>
+            <file>file:/C:/Users/Mago/Desktop/pruebas/res_base/Proyecto_pizza/src/java/Resource/MaxidResource.java</file>
+            <file>file:/C:/Users/Mago/Desktop/pruebas/res_base/Proyecto_pizza/src/java/Class/Pedido_pizza.java</file>
+            <file>file:/C:/Users/Mago/Desktop/pruebas/res_base/Proyecto_pizza/src/java/ClassDAO/PersonaDAO.java</file>
         </group>
     </open-files>
 </project-private>
