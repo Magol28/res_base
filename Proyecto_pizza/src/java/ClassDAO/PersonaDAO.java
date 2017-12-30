@@ -19,7 +19,34 @@ import javax.swing.JOptionPane;
  * @author Mago
  */
 public class PersonaDAO {
+    public int ID_maximo(){
+         Connection probar = ConexionDB.conetar();
+
+               int ID=0; 
+
+        //modificar
+        String sql = "SELECT max(ID_PEDIDO ) as id FROM pedido";
+        //sql="select * from producto  where cod_Prod="+codigo;
+        try {
+            Statement pst = probar.createStatement();
+            ResultSet res = pst.executeQuery(sql);
+
+            if (res.next()) {
+                  ID=res.getInt("id");
     
+         return ID;
+    
+                
+
+               
+            }
+        } catch (SQLException | HeadlessException e) {
+            JOptionPane.showMessageDialog(null, e.toString());
+        }
+        JOptionPane.showMessageDialog(null, "problemas en la base de datos");
+        return 0;
+        
+    }
       public Persona Select_persona(int  id){
             Connection probar = ConexionDB.conetar();
 

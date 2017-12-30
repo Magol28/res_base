@@ -33,6 +33,7 @@ public class ApplicationConfig extends Application {
         resources.add(Resource.ClientResource.class);
         resources.add(Resource.CuponResource.class);
         resources.add(Resource.DescuentoResource.class);
+        resources.add(Resource.MaxidResource.class);
         resources.add(Resource.PedidoResource.class);
         resources.add(Resource.Pedido_pizzaResource.class);
         resources.add(Resource.PizzaResource.class);
